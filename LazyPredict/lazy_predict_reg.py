@@ -2,7 +2,6 @@ from lazypredict.Supervised import LazyRegressor
 from sklearn.datasets import load_boston
 from sklearn.model_selection import train_test_split
 
-
 data = load_boston()
 X = data.data
 y = data.target
